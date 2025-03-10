@@ -8,7 +8,7 @@ die_faces = [1,2,3,4,5,6]
 
 prob = [1/6,1/6,1/6,1/6,1/6,1/6,]
 
-rolls = np.random.choice(die_faces, size=10000, p=prob)
+rolls = np.random.choice(die_faces, size=100, p=prob)
 
 frequency = Counter(rolls)
 
